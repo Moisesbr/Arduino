@@ -11,6 +11,7 @@ script:
   - echo "" | ant dist
   - popd
 #- bash -x ./generate-appimage
+#
 
 deploy:
   provider: releases
